@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Zapatillas</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>JordanShop</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Catálogo</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="producto" data-id="1" data-nombre="Jordan 1 Retro University Blue" data-precio="312.00">
+            <img src="./img/Air-Jordan-1-Retro-High-White-University-Blue-Black-Product.jpg" alt="Zapatilla 1">
+            <h2>Jordan 1 Retro University Blue</h2>
+            <p>Precio: $312</p>
+            <p>Tallas disponibles: M</p>
+            <button id="sweetAlert" class="comprar">Comprar</button>
+        </section>
+
+        <section class="producto" data-id="2" data-nombre="Jordan 1 Retro High OG Royal" data-precio="230.00">
+            <img src="./img/Air-Jordan-1-Retro-High-OG-Royal-Reimagined-GS.jpg" alt="Zapatilla 2">
+            <h2>Jordan 1 Retro High OG Royal</h2>
+            <p>Precio: $230</p>
+            <p>Tallas disponibles: M</p>
+            <button id="sweetAlert" class="comprar">Comprar</button>
+        </section>
+
+
+        <section class="producto" data-id="3" data-nombre="Jordan 1 Retro High Travis Scott" data-precio="1394.00">
+            <img src="./img/Air-Jordan-1-Retro-High-Travis-Scott-Product.jpg" alt="Zapatilla 3">
+            <h2>Jordan 1 Retro High Travis Scott</h2>
+            <p>Precio: $1,394</p>
+            <p>Tallas disponibles: M</p>
+            <button id="sweetAlert" class="comprar">Comprar</button>
+        </section>
+
+
+        <section class="producto" data-id="4" data-nombre="Jordan 1 Retro High Off-White University Blue" data-precio="1858.00">
+            <img src="./img/Air-Jordan-1-Retro-High-Off-White-University-Blue-Product.jpg" alt="Zapatilla 4">
+            <h2>Jordan 1 Retro High Off-White University Blue</h2>
+            <p>Precio: $1,858</p>
+            <p>Tallas disponibles: M</p>
+            <button id="sweetAlert" class="comprar">Comprar</button>
+        </section>
+
+
+        <section class="producto" data-id="4" data-nombre="Jordan 1 Retro High Off-White Chicago" data-precio="5050.00">
+            <img src="./img/Air-Jordan-1-Retro-High-Off-White-Chicago-Product.jpg" alt="Zapatilla 5">
+            <h2>Jordan 1 Retro High Off-White Chicago</h2>
+            <p>Precio: $5,050</p>
+            <p>Tallas disponibles: M</p>
+            <button id="sweetAlert" class="comprar">Comprar</button>
+        </section>
+    </main>
+
+    <div id="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="lista-carrito"></ul>
+        <p>Total: $<span id="total">0.00</span></p>
+        <button class="borrar-carrito" id="vaciar-carrito">Vaciar Carrito</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Venta de Zapatillas</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
